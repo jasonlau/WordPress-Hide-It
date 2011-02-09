@@ -31,9 +31,12 @@ function hideit_manager(){
 <p><strong>Instructions:</strong><br />
 Include the Hide It short tag in your post or page content.
 </p>
-<strong>Example:</strong><br />
-<code>[hideit hide=".widget-1, #header-div" show=".widget-2"]</code> 
-<p>A .dot indicates this is a class name, a #hash mark indicates this is an id attribute, and a comma separates each object. Easy enough. You can get an object's id or class name by viewing the source code for your webpage.</p>
+<strong>Examples:</strong><br />
+<code>[hideit hide=".widget-1, #header-div" show=".widget-2"]</code><br />
+<strong>Or more advanced: </strong><br />
+<code>[hideit hide="#content .post:first, p:contains('Lorem ipsum dolor sit amet')" show="li[class='page-item-31'], p:not(p:[rel~='something'])"]</code>
+<p><strong>FYI:</strong> A <code>.dot</code> indicates this is a class name (i.e. <code>.myclass</code>), a <code>#hash</code> mark indicates this is an id attribute (i.e. <code>#my-id</code>), and if there is no preceding character(i.e. <code>input:[name='submit']</code>), it indicates this is a HTML tag. Easy enough. You can get an object's id or class name by viewing the source code for the webpage.</p>
+<p>This plugin supports any of the <a href="http://api.jquery.com/category/selectors/" target="_blank">selectors supported by jQuery</a>.</p>
 <br />
 <hr />
 <a href="http://www.gnu.org/licenses/gpl.html" target="_blank"><img src="http://www.gnu.org/graphics/gplv3-127x51.png" alt="GNU/GPL" border="0" /></a><em><strong>Share And Share-Alike!</strong></em><br />
