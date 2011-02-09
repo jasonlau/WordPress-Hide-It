@@ -9,7 +9,7 @@ Tested up to: 3.0.4
 
 == Description ==
 
-This plugin allows you to toggle visibility of any objects from within a post or page using shorttags and CSS class name or id attribute selectors.
+This plugin allows you to toggle visibility of any objects from within a post or page using shorttags and CSS class name or id attribute selectors. Example: `[hideit hide=".widget-1, #header-div" show=".widget-2"]`. A .dot indicates this is a class name, a #hash mark indicates this is an id attribute, and a comma separates each object. Easy enough. You can get an object's id or class name by viewing the source code for your webpage.
 
 == Installation ==
 
